@@ -19,6 +19,20 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+#rootH {
+  width: 100vw;
+  max-width: 100%;
+  height: 150vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: lightgray;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
 :root {
   --b:#2b2b2b;
   --g:#c1c1c1;
@@ -30,6 +44,14 @@
 .con-mobile {
   width: 20vw;
   height: 80vh;
+  background-color: #fafafa;
+}
+
+.con-mobileH {
+  width: 20vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   background-color: #fafafa;
 }
 
@@ -69,6 +91,18 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.j-f-s {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.j-f-e {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .a-c {
@@ -138,7 +172,7 @@
 }
 
 .fontSize0 {
-  font-size: 0.5rem;
+  font-size: 0.7rem;
 }
 
 .fontSize1 {
@@ -237,6 +271,10 @@
   margin-left: 15vw;
 }
 
+.marginLeft17 {
+  margin-left: 17vw;
+}
+
 .marginLeft20 {
   margin-left: 20vw;
 }
@@ -333,6 +371,12 @@
   border-radius: 0.5vw;
 }
 
+.buttonSM {
+  width: 7vw;
+  height: 4vh;
+  border-radius: 0.5vw;
+}
+
 .buttonS {
   width: 5vw;
   height: 3vh;
@@ -353,6 +397,10 @@
 
 .height-5 {
   height: 5vh;
+}
+
+.height10 {
+  height: 10vh;
 }
 
 .j-s-b {
@@ -400,17 +448,21 @@ header {
   width: 20vw;
   height: 12vh;
   background-color: var(--w);
-  position: absolute;
-  top: 10vh;
   -webkit-box-shadow: 0px 2px 3px 0 gray;
           box-shadow: 0px 2px 3px 0 gray;
+  position: -webkit-sticky;
+  position: sticky;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  top: 0;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -425,8 +477,9 @@ footer {
   width: 20vw;
   height: 5vh;
   background-color: var(--w);
-  position: fixed;
-  bottom: 10vh;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
   -webkit-box-shadow: 0 -2px 3px 0 gray;
           box-shadow: 0 -2px 3px 0 gray;
   display: -webkit-box;
@@ -463,5 +516,113 @@ footer {
   width: 1vw;
   height: 1vw;
   background-color: var(--b);
+}
+
+.iconN {
+  width: 1vw;
+  height: 1vw;
+}
+
+.contentsBox {
+  width: 7vw;
+  height: 7vw;
+  -webkit-box-shadow: 0 0 3px 0 gray;
+          box-shadow: 0 0 3px 0 gray;
+  background-color: var(--w);
+}
+
+.contentsBox15 {
+  width: 15vw;
+  height: 15vw;
+  -webkit-box-shadow: 0 0 3px 0 gray;
+          box-shadow: 0 0 3px 0 gray;
+  background-color: var(--w);
+}
+
+.commentBox15 {
+  width: 15vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-box-shadow: 0 0 3px 0 gray;
+          box-shadow: 0 0 3px 0 gray;
+  background-color: var(--w);
+  border-radius: 1vw;
+}
+
+.commentBox18 {
+  width: 18vw;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  -webkit-box-shadow: 0 0 3px 0 gray;
+          box-shadow: 0 0 3px 0 gray;
+  background-color: var(--w);
+}
+
+.menufixed {
+  position: fixed;
+  top: 23vh;
+  z-index: 10;
+}
+
+.random1 {
+  position: relative;
+  top: 10vh;
+  left: 1vw;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+.random2 {
+  position: relative;
+  top: 2vh;
+  left: 5vw;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+}
+
+.random3 {
+  position: relative;
+  top: 1vh;
+  left: -3vw;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.random4 {
+  position: relative;
+  top: -5vh;
+  left: 2vw;
+  -webkit-transform: rotate(-35deg);
+          transform: rotate(-35deg);
+}
+
+.overflowhidden {
+  overflow: hidden;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.headertitle {
+  width: 20vw;
+  height: 15vh;
+  background-color: var(--b);
+  color: --w;
+}
+
+.lineHeight3 {
+  line-height: 3vh;
+}
+
+.textStart {
+  text-align: start;
+}
+
+.textCenter {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

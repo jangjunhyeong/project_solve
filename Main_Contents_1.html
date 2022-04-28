@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+	<div id="root">
+		<div class="con-mobile flex directionCol a-c overflowhidden">
+			<!-- 현재 section 구분을 위해서 그림자를 두었고 필요 없다면 제거하기 -->
+		<header>
+			<p class="width-18 fontSize1 fontWeight700 marginTop3 marginBottom1
+			marginLeft1">But,your</p>
+			<div class="search flex a-c">
+				<i class="fa-solid fa-magnifying-glass fontSize0 colorG marginLeft15"></i>
+			</div>
+		</header>
+		<div class="space"></div>
+		<div class="width-18">
+			<div class="menufixed">
+			<p class="fontSize2 fontWeight700">Choice</p>
+			<p class="fontSize0">원하는 주제를 선택해보세요.</p>
+			</div>
+		</div>
+		<div>
+		<div class="contentsBox random1 j-c a-c flex">1</div>
+		<div class="contentsBox random2 j-c a-c flex">2</div>
+		<div class="contentsBox random3 j-c a-c flex">3</div>
+		<div class="contentsBox random4 j-c a-c flex">4</div>
+		</div>
+
+		<footer>
+	<i class="fa-solid fa-house"></i>
+	<i class="fa-solid fa-magnifying-glass"></i>
+	<i class="fa-solid fa-comment"></i>
+	<i class="fa-regular fa-bell"></i>
+	<i class="fa-solid fa-user"></i>
+		</footer>
+		</div>
+
+
+		<script>
+			const contentsBox = document.getElementsByClassName("contentsBox")
+			console.log(contentsBox[0]);
+			console.dir(contentsBox[0]);
+		</script>
+</body>
+</html>
