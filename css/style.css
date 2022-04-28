@@ -22,7 +22,9 @@
 #rootH {
   width: 100vw;
   max-width: 100%;
-  height: 150vh;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,6 +201,10 @@
   margin-top: 1vh;
 }
 
+.marginTop05 {
+  margin-top: 0.5vh;
+}
+
 .marginTop2 {
   margin-top: 2vh;
 }
@@ -247,6 +253,10 @@
   margin-top: 60vh;
 }
 
+.marginLeft05 {
+  margin-left: 0.5vw;
+}
+
 .marginLeft1 {
   margin-left: 1vw;
 }
@@ -265,6 +275,14 @@
 
 .marginLeft10 {
   margin-left: 10vw;
+}
+
+.marginLeft12 {
+  margin-left: 12vw;
+}
+
+.marginLeft14 {
+  margin-left: 14vw;
 }
 
 .marginLeft15 {
@@ -359,6 +377,36 @@
   border-radius: 0.5vw;
 }
 
+.buttonB18 {
+  width: 18vw;
+  height: 3vh;
+  border-radius: 0.5vw;
+}
+
+.buttonB18-5 {
+  width: 18vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+}
+
+.buttonB18-7 {
+  width: 18vw;
+  height: 7vh;
+  border-radius: 0.5vw;
+}
+
+.buttonB18-12 {
+  width: 18vw;
+  height: 12vh;
+  border-radius: 0.5vw;
+}
+
+.buttonB18-15 {
+  width: 18vw;
+  height: 15vh;
+  border-radius: 0.5vw;
+}
+
 .buttonB {
   width: 15vw;
   height: 3vh;
@@ -383,6 +431,10 @@
   border-radius: 0.5vw;
 }
 
+.width-13 {
+  width: 13vw;
+}
+
 .width-15 {
   width: 15vw;
 }
@@ -391,12 +443,20 @@
   width: 18vw;
 }
 
+.width-19 {
+  width: 19vw;
+}
+
 .width-20 {
   width: 20vw;
 }
 
 .height-5 {
   height: 5vh;
+}
+
+.height-2 {
+  height: 2vh;
 }
 
 .height10 {
@@ -470,7 +530,7 @@ header {
 
 .space {
   width: 20vw;
-  height: 13vh;
+  height: 10vh;
 }
 
 footer {
@@ -547,7 +607,16 @@ footer {
   -webkit-box-shadow: 0 0 3px 0 gray;
           box-shadow: 0 0 3px 0 gray;
   background-color: var(--w);
-  border-radius: 1vw;
+  border-radius: 0.5vw;
+}
+
+.commentBox15H {
+  width: 15vw;
+  height: 15vh;
+  -webkit-box-shadow: 0 0 3px 0 gray;
+          box-shadow: 0 0 3px 0 gray;
+  background-color: var(--w);
+  border-radius: 0.5vw;
 }
 
 .commentBox18 {
@@ -614,8 +683,24 @@ footer {
   color: --w;
 }
 
+.lineHeight1 {
+  line-height: 1vh;
+}
+
+.lineHeight2 {
+  line-height: 2vh;
+}
+
 .lineHeight3 {
   line-height: 3vh;
+}
+
+.lineHeight5 {
+  line-height: 5vh;
+}
+
+.lineHeight10 {
+  line-height: 10vh;
 }
 
 .textStart {
@@ -624,5 +709,76 @@ footer {
 
 .textCenter {
   text-align: center;
+}
+
+.dot2 {
+  width: 0.3vw;
+  height: 0.3vw;
+  background-color: var(--g);
+  border-radius: 100%;
+}
+
+.width-5 {
+  width: 5vw;
+}
+
+.width-3 {
+  width: 3vw;
+}
+
+.width-2 {
+  width: 2vw;
+}
+
+.commentNotice {
+  width: 8vw;
+  height: 7vh;
+  background-color: var(--w);
+  -webkit-box-shadow: 0 0 3px 0 gray;
+          box-shadow: 0 0 3px 0 gray;
+  border-radius: 0.5vw;
+}
+
+.top40 {
+  top: 40vh;
+}
+
+.top50 {
+  top: 50vh;
+}
+
+.top100 {
+  top: 100vh;
+}
+
+.top200 {
+  top: 150vh;
+}
+
+.zIndex {
+  z-index: 2;
+}
+
+.left30 {
+  left: 42vw;
+}
+
+.marginLeft2 {
+  margin-left: 2vw;
+}
+
+main {
+  width: 20vw;
+  height: 84vh;
+}
+
+.boxshadow {
+  -webkit-box-shadow: 0px 0px 3px 0 gray;
+          box-shadow: 0px 0px 3px 0 gray;
+}
+
+.boxshadowB {
+  -webkit-box-shadow: 0px 2px 3px 0 gray;
+          box-shadow: 0px 2px 3px 0 gray;
 }
 /*# sourceMappingURL=style.css.map */
