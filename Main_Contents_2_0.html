@@ -125,12 +125,18 @@
 			const bookmark = document.getElementsByClassName('fa-regular fa-bookmark');
 
 
-			// 채워지는 thumbs-up 으로 바꾸어야함 // //일러스트 작업하기
+			// filled thumbs-up ↔ unfilled thumbs up icon 으로 바꾸는 //
+			// ON/OFF 기능을 만들고, ON/OFF 를 기반으로 추천수가 올라가는
+			// 인터랙션 부여하기
+
+			// 추천을 눌렀을 때 어떤 인터랙션을 넣는 게 좋을지 고려해보기
 
 			thumbs[0].addEventListener('click',function(){
 				thumbs[0].style.color="blue";
 				alert("해당 콘텐츠를 추천하였습니다.");
 			});
+
+
 
 			bookmark[0].addEventListener('click',function(){
 				bookmark[0].style.color="blue";

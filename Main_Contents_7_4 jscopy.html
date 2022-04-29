@@ -42,25 +42,66 @@
 						<div class="flex directionCol">
 					</p>
 					<i class="fa-solid fa-arrow-left"></i>
-					<p class="marginTop1">등록 대기중 콘텐츠</p>
-					<!-- <p class="fontSize0">등록을 기다리는 콘텐츠입니다.</p> -->
+					<p class="marginTop1">설정</p>
 						</div>
 				</div>
+				<div class="borderbottom width-15 marginTop3 opacity05"></div>
 
-				<div class="flex directionCol width-15 a-c marginTop10">
-					<img src="thinkingbubble.jpg">
-					<div class="textCenter marginTop2">
-						<p>콘텐츠가 텅 비었어요!</p>
-						<p class="fontSize0">당신의 콘텐츠를 나누어보세요.</p>
+				<div class="marginTop2 flex center width-15">
+					<div class="flex a-c j-s-b width-15">
+				<p class="fontSize0 ">신규 콘텐츠 게시 알림</p>
+				<label>
+					<input type='checkbox'
+									class='checkBox'
+									onclick='is_checked()'
+					>
+				</label>
 					</div>
-				</div>
+			</div>
 
-				<div class="buttonB18-5 marginTop10 fontSize0 backgroundColorB colorW flex a-c j-c"><p>콘텐츠 아이디어 등록하러 가기</p>
+			<div class="marginTop5 flex center width-15">
+				<div class="flex a-c j-s-b width-15">
+			<p class="fontSize0 ">내 콘텐츠 등록 알림</p>
+			<label>
+				<input type='checkbox'
+								class='checkBox'
+								onclick='is_checked()'
+				>
+			</label>
 				</div>
-	
-	
+		</div>
 
-			
+		<div class="marginTop5 flex center width-15">
+			<div class="flex a-c j-s-b width-15">
+		<p class="fontSize0 ">좋아요 알림</p>
+		<label>
+			<input type='checkbox'
+							class='checkBox'
+							onclick='is_checked()'
+			>
+		</label>
+			</div>
+	</div>
+	<div class="borderbottom width-15 marginTop3 opacity05"></div>
+	<div class="marginTop2 flex center width-15">
+		<div class="flex a-c j-s-b width-15">
+	<p class="fontSize0 ">다크 모드</p>
+	<label>
+		<input type='checkbox'
+						class='checkBox'
+						onclick='is_checked()'
+		>
+	</label>
+		</div>
+</div>
+	<div class="borderbottom width-15 marginTop3 opacity05"></div>
+	<div class="marginTop2 flex center width-15">
+		<div class="flex a-c  width-15">
+	<p class="fontSize0 ">로그아웃</p>
+	
+		</div>
+</div>
+
 		
 	
 
@@ -77,7 +118,9 @@
 		</div>
 
 		<script>
-	
+	function is_checked() {
+  const checkbox = document.getElementsByClassName('checkBox');
+  const is_checked = checkbox.checked;}
 		</script>
 
 	

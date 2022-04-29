@@ -12,6 +12,15 @@
 	background-color: lightgray;
 	font-family: 'Noto Sans KR', sans-serif;
 }
+#rootW{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:var(--w);
+	font-family: 'Noto Sans KR', sans-serif;
+}
 #rootH{
 	width: 100vw;
 	max-width: 100%;
@@ -22,17 +31,21 @@
 	font-family: 'Noto Sans KR', sans-serif;
 }
 :root{
+	// 애플은 지정색이 없으니 흰색 or 검은색
 	--b:#2b2b2b;
 	--g:#c1c1c1;
-	--y:#ffc700;
+	--y:#fab100;
+	// 카카오
 	--w:#fafafa;
-	--gr:rgba(23, 201, 38, 0.993);
+	--gr:#2DB400;
+	// 네이버
 }
 // container-mobile
 .con-mobile{
 	width: 20vw;
 	height: 80vh;
 	background-color: #fafafa;
+	color:var(--b)
 	// border-radius: 1vw;
 }
 .con-mobileH{
@@ -115,6 +128,7 @@
 .marginBottom15{margin-bottom: 15vh;}
 .marginBottom20{margin-bottom: 20vh;}
 .marginBottom25{margin-bottom: 25vh;}
+.marginRight05{margin-right: 0.5vw;}
 .marginRight1{margin-right: 1vw;}
 .marginRight2{margin-right: 2vw;}
 .marginRight3{margin-right: 3vw;}
@@ -172,6 +186,7 @@ border-radius: 3vw;}
 .contentsBox{width: 7vw; height: 7vw; box-shadow: 0 0 3px 0 gray; background-color: var(--w);}
 
 .contentsBox15{width: 15vw; height: 15vw; box-shadow: 0 0 3px 0 gray; background-color: var(--w);}
+.contentsBox17{width: 17vw; height: 17vw; box-shadow: 0 0 3px 0 gray; background-color: var(--w);}
 .commentBox15{width: 15vw; height:max-content; box-shadow: 0 0 3px 0 gray; background-color: var(--w); border-radius: 0.5vw;}
 .commentBox15H{width: 15vw; height:15vh; box-shadow: 0 0 3px 0 gray; background-color: var(--w); border-radius: 0.5vw;}
 .commentBox18{width: 18vw; height:max-content; box-shadow: 0 0 3px 0 gray; background-color: var(--w);}
